@@ -96,6 +96,7 @@
     /* border: 1px solid red; */
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .card-sec-title{
     text-align: center;
@@ -183,4 +184,44 @@
 .card-more i{
     color: rgba(224, 44, 109, 0.87);
     cursor: pointer;
+}
+
+/* feature styles */
+.feature-con{
+    /* border: 1px solid blue; */
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.feature-img{
+    padding-left: 60px;
+}
+.feature-content{
+    padding-left: 150px;
+}
+.feature-content h2{
+    color: #0A0826;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 10px 0;
+}
+.feature-content p{
+    color: #6C6C6C;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 10px 0;
+}
+.feature-content h6{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    background: #E02C6D;
+    margin: 10px 0;
 }
